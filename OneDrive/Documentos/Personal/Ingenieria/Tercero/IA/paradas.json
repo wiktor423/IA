@@ -1,0 +1,426 @@
+{
+    "linea": {
+        "linea_A": {
+            "Alberti": {
+                "neighbors": {
+                    "Pasco": { "distance": 1.4375, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6118,
+                    "Longitud": -58.4019
+                } 
+            },
+            "Pasco": {
+                "neighbors": {
+                    "Alberti": { "distance": 1.4375, "direction": "izquierda" },
+                    "Congreso": { "distance": 1.4375, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6115,
+                    "Longitud": -58.3979
+                } 
+            },
+            "Congreso": {
+                "neighbors": {
+                    "Pasco": { "distance": 1.4375, "direction": "izquierda" },
+                    "Saenz Peña": { "distance": 1.4375, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6111,
+                    "Longitud": -58.3936
+                }
+            },
+            "Saenz Peña": {
+                "neighbors": {
+                    "Congreso": { "distance": 1.4375, "direction": "izquierda" },
+                    "Lima": { "distance": 1.4375, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6109,
+                    "Longitud": -58.3896
+                }
+                
+            },
+            "Lima": {
+                "neighbors": {
+                    "Saenz Peña": { "distance": 1.4375, "direction": "izquierda" },
+                    "Avenida_de_Mayo": { "distance": 1.4375, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6106,
+                    "Longitud": -58.3855
+                } 
+               
+            },
+            "Avenida_de_Mayo": {
+                "neighbors": {
+                    "Lima": { "distance": 1.4375, "direction": "izquierda" },
+                    "Piedras": { "distance": 1.4375, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6061,
+                    "Longitud": -58.3795
+                } 
+            },
+            "Piedras": {
+                "neighbors": {
+                    "Avenida_de_Mayo": { "distance": 1.4375, "direction": "izquierda" },
+                    "Peru": { "distance": 1.4375, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6099,
+                    "Longitud": -58.3816
+                } 
+            },
+            "Peru": {
+                "neighbors": {
+                    "Piedras": { "distance": 1.4375, "direction": "izquierda" },
+                    "Plaza_de_Mayo": { "distance": 1.4375, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6091,
+                    "Longitud": -58.3773
+                } 
+            },
+            "Plaza_de_Mayo": {
+                "neighbors": {
+                    "Peru": { "distance": 1.4375, "direction": "izquierda" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6083,
+                    "Longitud": -58.3734
+                } 
+            }
+        },
+        "linea_B": {
+            "Leandro_N_Alem": {
+                "neighbors": {
+                    "Florida": { "distance": 1.53, "direction": "izquierda" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.5996,
+                    "Longitud": -58.3709
+                } 
+            },
+            "Florida": {
+                "neighbors": {
+                    "Leandro_N_Alem": { "distance": 1.53, "direction": "derecha" },
+                    "Carlos Pellegrini": { "distance": 1.53, "direction": "izquierda" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6024,
+                    "Longitud": -58.3763
+                } 
+            },
+            "Carlos Pellegrini": {
+                "neighbors": {
+                    "Florida": { "distance": 1.53, "direction": "derecha" },
+                    "Uruguay": { "distance": 1.53, "direction": "izquierda" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6045,
+                    "Longitud": -58.3823
+                } 
+            },
+            "Uruguay": {
+                "neighbors": {
+                    "Carlos Pellegrini": { "distance": 1.53, "direction": "derecha" },
+                    "Callao": { "distance": 1.53, "direction": "izquierda" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6066,
+                    "Longitud": -58.3867
+                } 
+            },
+            "Callao": {
+                "neighbors": {
+                    "Uruguay": { "distance": 1.53, "direction": "derecha" },
+                    "Pasteur": { "distance": 1.53, "direction": "izquierda" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6086, 
+                    "Longitud": -58.3911
+                } 
+            },
+            "Pasteur": {
+                "neighbors": {
+                    "Callao": { "distance": 1.53, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6106, 
+                    "Longitud": -58.3954
+                }
+            }
+        },
+        "linea_C": {
+            "Retiro": {
+                    "neighbors": {
+                        "General_San_Martin": { "distance": 1.4, "direction": "derecha" }
+                    },   
+                    "cordenadas": {
+                        "Latitud":  -34.5917, 
+                        "Longitud": -58.3745
+                    } 
+            },
+            "General_San_Martin": {
+                "neighbors": {
+                    "Retiro": { "distance": 1.4, "direction": "izquierda" },
+                    "Lavalle": { "distance": 1.4, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud":  -34.5948, 
+                    "Longitud": -58.3791
+                } 
+            },
+            "Lavalle": {
+                "neighbors": {
+                    "General_San_Martin": { "distance": 1.4, "direction": "izquierda" },
+                    "Diagonal_Norte": { "distance": 1.4, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.5991, 
+                    "Longitud": -58.3817
+                } 
+            },
+            "Diagonal_Norte": {
+                "neighbors": {
+                    "Lavalle": { "distance": 1.4, "direction": "izquierda" },
+                    "Moreno": { "distance": 1.4, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6035, 
+                    "Longitud": -58.3813
+                } 
+            },
+            "Avenida_de_Mayo": {
+                "neighbors": {
+                    "Moreno": { "distance": 1.4, "direction": "izquierda" },
+                    "Independencia": { "distance": 1.4, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6061,
+                    "Longitud": -58.3795
+                }  
+            },
+            "Moreno": {
+                "neighbors": {
+                    "Diagonal_Norte": { "distance": 1.4, "direction": "izquierda" },
+                    "Avenida_de_Mayo": { "distance": 1.4, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6093,
+                    "Longitud": -58.3786
+                }  
+            },
+            "Independencia": {
+                "neighbors": {
+                    "Avenida_de_Mayo": { "distance": 1.4, "direction": "izquierda" },
+                    "San_Juan": { "distance": 1.4, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6132,
+                    "Longitud": -58.3791
+                } 
+            },
+            "San_Juan": {
+                "neighbors": {
+                    "Independencia": { "distance": 1.4, "direction": "izquierda" },
+                    "Constitucion": { "distance": 1.4, "direction": "derecha" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6163, 
+                    "Longitud": -58.3793
+                } 
+            },
+            "Constitucion": {
+                "neighbors": {
+                    "San_Juan": { "distance": 1.4, "direction": "izquierda" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6257,
+                    "Longitud": -58.3734
+                } 
+            }
+        },         
+        "linea_D": {
+            "Facultad_de_medicina": {
+                "neighbors": {
+                    "Callao": { "distance": 1.625, "direction": "derecha" }
+                },
+                "cordenadas": {
+                    "Latitud": -34.5961,
+                    "Longitud": -58.3957
+                }
+            },
+            "Callao": {
+                "neighbors": {
+                    "Facultad_de_medicina": { "distance": 1.625, "direction": "izquierda" },
+                    "Tribunales": { "distance": 1.625, "direction": "derecha" }
+                },
+                "cordenadas": {
+                    "Latitud": -34.5984,
+                    "Longitud": -58.3903
+                }
+            },
+            "Tribunales": {
+                "neighbors": {
+                    "Callao": { "distance": 1.625, "direction": "izquierda" },
+                    "Nueve_de_Julio": { "distance": 1.625, "direction": "derecha" }
+                },
+                "cordenadas": {
+                    "Latitud": -34.6010,
+                    "Longitud": -58.3861
+                }
+            },
+            "Nueve_de_Julio": {
+                "neighbors": {
+                    "Tribunales": { "distance": 1.625, "direction": "izquierda" },
+                    "Catedral": { "distance": 1.625, "direction": "derecha" }
+                },
+                "cordenadas": {
+                    "Latitud": -34.6037,
+                    "Longitud": -58.3822
+                }
+            },
+            "Catedral": {
+                "neighbors": {
+                    "Nueve_de_Julio": { "distance": 1.625, "direction": "izquierda" }
+                },
+                "cordenadas": {
+                    "Latitud": -34.6093,
+                    "Longitud": -58.3731
+                }
+            }
+        },
+        "linea_E": {
+            "Pichincha": {
+                "neighbors": {
+                    "Entre_Rios": { "distance": 1.6, "direction": "derecha" }
+                },
+                "cordenadas": {
+                    "Latitud": -34.3723,
+                    "Longitud": -58.2350
+                }
+            },
+            "Entre_Rios": {
+                "neighbors": {
+                    "Pichincha": { "distance": 1.6, "direction": "izquierda" },
+                    "San_Jose": { "distance": 1.6, "direction": "derecha" }
+                },
+                "cordenadas": {
+                    "Latitud": -34.6191,
+                    "Longitud": -58.3777
+                }
+            },
+            "San_Jose": {
+                "neighbors": {
+                    "Entre_Rios": { "distance": 1.6, "direction": "izquierda" },
+                    "Independencia": { "distance": 1.6, "direction": "derecha" }
+                },
+                "cordenadas": {
+                    "Latitud": -34.6167,
+                    "Longitud": -58.3758
+                }
+            },
+            "Independencia": {
+                "neighbors": {
+                    "San_Jose": { "distance": 1.0, "direction": "izquierda" },
+                    "Belgrano": { "distance": 1.3, "direction": "derecha" }
+                },
+                "cordenadas": {
+                    "Latitud": -34.6143, 
+                    "Longitud": -58.3742
+                }  
+            },
+            "Belgrano": {
+                "neighbors": {
+                    "Independencia": { "distance": 1.3, "direction": "izquierda" },
+                    "Bolivar": { "distance": 1.0, "direction": "derecha" }
+                },
+                "cordenadas": {
+                    "Latitud": -34.6110,
+                    "Longitud": -58.3735
+                }
+            },
+            "Bolivar": {
+                "neighbors": {
+                    "Belgrano": { "distance": 1.0, "direction": "izquierda" }
+                },   
+                "cordenadas": {
+                    "Latitud": -34.6083,
+                    "Longitud": -58.3734
+                }        
+            }
+        }
+    },
+    
+    "global_schedule": {
+        "entre_semana":{
+            "A": {
+                "derecha": {"first_train": "05:00", "last_train": "22:28", "interval": 23},
+                "izquierda": {"first_train": "05:00", "last_train": "22:54", "interval": 23}
+            },
+            "B": {
+                "derecha": {"first_train": "05:00", "last_train": "22:45", "interval": 23},
+                "izquierda": {"first_train": "05:00", "last_train": "22:49", "interval": 23}
+            },
+            "C": {
+                "derecha": {"first_train": "05:00", "last_train": "22:45", "interval": 13},
+                "izquierda": {"first_train": "05:00", "last_train": "22:47", "interval": 13}
+            },
+            "D": {
+                "derecha": {"first_train": "05:00", "last_train": "22:24", "interval": 26},
+                "izquierda": {"first_train": "05:00", "last_train": "22:51", "interval": 26}
+            },
+            "E": {
+                "derecha": {"first_train": "05:00", "last_train": "22:27", "interval": 24},
+                "izquierda": {"first_train": "05:00", "last_train": "22:59", "interval": 24}
+            }
+        },
+        "sabado": {
+            "A": {
+                "derecha": {"first_train": "05:00", "last_train": "22:27", "interval": 23},
+                "izquierda": {"first_train": "05:00", "last_train": "22:56", "interval": 23}
+            },
+            "B": {
+                "derecha": {"first_train": "05:00", "last_train": "22:25", "interval": 23},
+                "izquierda": {"first_train": "05:00", "last_train": "22:49", "interval": 23}
+            },
+            "C": {
+                "derecha": {"first_train": "05:00", "last_train": "22:45", "interval": 13},
+                "izquierda": {"first_train": "05:00", "last_train": "22:47", "interval": 13}
+            },
+            "D": {
+                "derecha": {"first_train": "05:00", "last_train": "22:24", "interval": 26},
+                "izquierda": {"first_train": "05:00", "last_train": "22:51", "interval": 26}
+            },
+            "E": {
+                "derecha": {"first_train": "05:00", "last_train": "22:27", "interval": 24},
+                "izquierda": {"first_train": "05:00", "last_train": "22:59", "interval": 24}
+            }
+
+        },
+        "domingo": {
+            "A": {
+                "derecha": {"first_train": "08:00", "last_train": "22:03", "interval": 23},
+                "izquierda": {"first_train": "08:00", "last_train": "22:32", "interval": 23}
+            },
+            "B": {
+                "derecha": {"first_train": "08:00", "last_train": "22:01", "interval": 23},
+                "izquierda": {"first_train": "08:00", "last_train": "22:25", "interval": 23}
+            },
+            "C": {
+                "derecha": {"first_train": "08:00", "last_train": "22:21", "interval": 13},
+                "izquierda": {"first_train": "08:00", "last_train": "22:23", "interval": 13}
+            },
+            "D": {
+                "derecha": {"first_train": "08:00", "last_train": "22:00", "interval": 26},
+                "izquierda": {"first_train": "08:00", "last_train": "22:28", "interval": 26}
+            },
+            "E": {
+                "derecha": {"first_train": "08:00", "last_train": "22:03", "interval": 24},
+                "izquierda": {"first_train": "08:00", "last_train": "22:35", "interval": 24}
+            }
+        }
+    }
+  }
