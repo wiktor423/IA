@@ -1,0 +1,723 @@
+[
+  {
+    "nombre": "Alberti",
+    "longitud": -58.4019,
+    "latitud": -34.6118,
+    "aristasadyacentes": [
+      {
+        "inicio": "Alberti",
+        "fin": "Pasco",
+        "peso": 1.4375
+      }
+    ],
+    "linea": {
+      "nombre": "Linea A",
+      "tiempo": 23
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Pasco",
+    "longitud": -58.3979,
+    "latitud": -34.6115,
+    "aristasadyacentes": [
+      {
+        "inicio": "Pasco",
+        "fin": "Alberti",
+        "peso": 1.4375
+      },
+      {
+        "inicio": "Pasco",
+        "fin": "Congreso",
+        "peso": 1.4375
+      }
+    ],
+    "linea": {
+      "nombre": "Linea A",
+      "tiempo": 23
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Congreso",
+    "longitud": -58.3936,
+    "latitud": -34.6111,
+    "aristasadyacentes": [
+      {
+        "inicio": "Congreso",
+        "fin": "Pasco",
+        "peso": 1.4375
+      },
+      {
+        "inicio": "Congreso",
+        "fin": "Saenz Peña",
+        "peso": 1.4375
+      }
+    ],
+    "linea": {
+      "nombre": "Linea A",
+      "tiempo": 23
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Saenz Peña",
+    "longitud": -58.3896,
+    "latitud": -34.6109,
+    "aristasadyacentes": [
+      {
+        "inicio": "Saenz Peña",
+        "fin": "Congreso",
+        "peso": 1.4375
+      },
+      {
+        "inicio": "Saenz Peña",
+        "fin": "Lima",
+        "peso": 1.4375
+      }
+    ],
+    "linea": {
+      "nombre": "Linea A",
+      "tiempo": 23
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Lima",
+    "longitud": -58.3855,
+    "latitud": -34.6106,
+    "aristasadyacentes": [
+      {
+        "inicio": "Lima",
+        "fin": "Saenz Peña",
+        "peso": 1.4375
+      },
+      {
+        "inicio": "Lima",
+        "fin": "Avenida de Mayo",
+        "peso": 1.4375
+      }
+    ],
+    "linea": {
+      "nombre": "Linea A",
+      "tiempo": 23
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Avenida de Mayo",
+    "longitud": -58.3795,
+    "latitud": -34.6061,
+    "aristasadyacentes": [
+      {
+        "inicio": "Avenida de Mayo",
+        "fin": "Lima",
+        "peso": 1.4375
+      },
+      {
+        "inicio": "Avenida de Mayo",
+        "fin": "Piedras",
+        "peso": 1.4375
+      }
+    ],
+    "linea": {
+      "nombre": "Linea A",
+      "tiempo": 23
+    },
+    "transbordos": ["lima"]
+  },
+  {
+    "nombre": "Piedras",
+    "longitud": -58.3816,
+    "latitud": -34.6099,
+    "aristasadyacentes": [
+      {
+        "inicio": "Piedras",
+        "fin": "Avenida de Mayo",
+        "peso": 1.4375
+      },
+      {
+        "inicio": "Piedras",
+        "fin": "Peru",
+        "peso": 1.4375
+      }
+    ],
+    "linea": {
+      "nombre": "Linea A",
+      "tiempo": 23
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Peru",
+    "longitud": -58.3773,
+    "latitud": -34.6091,
+    "aristasadyacentes": [
+      {
+        "inicio": "Peru",
+        "fin": "Piedras",
+        "peso": 1.4375
+      },
+      {
+        "inicio": "Peru",
+        "fin": "Plaza de Mayo",
+        "peso": 1.4375
+      }
+    ],
+    "linea": {
+      "nombre": "Linea A",
+      "tiempo": 23
+    },
+    "transbordos": ["Catedral", "Bolivar"]
+  },
+  {
+    "nombre": "Plaza de Mayo",
+    "longitud": -58.3734,
+    "latitud": -34.6083,
+    "aristasadyacentes": [
+      {
+        "inicio": "Plaza de Mayo",
+        "fin": "Peru",
+        "peso": 1.4375
+      }
+    ],
+    "linea": {
+      "nombre": "Linea A",
+      "tiempo": 23
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Leandro N Alem",
+    "longitud": -58.3709,
+    "latitud": -34.5996,
+    "aristasadyacentes": [
+      {
+        "inicio": "Leandro N Alem",
+        "fin": "Florida",
+        "peso": 1.53
+      }
+    ],
+    "linea": {
+      "nombre": "Linea B",
+      "tiempo": 23
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Florida",
+    "longitud": -58.3763,
+    "latitud": -34.6024,
+    "aristasadyacentes": [
+      {
+        "inicio": "Florida",
+        "fin": "Leandro N Alem",
+        "peso": 1.53
+      },
+      {
+        "inicio": "Florida",
+        "fin": "Carlos Pellegrini",
+        "peso": 1.53
+      }
+    ],
+    "linea": {
+      "nombre": "Linea B",
+      "tiempo": 23
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Carlos Pellegrini",
+    "longitud": -58.3823,
+    "latitud": -34.6045,
+    "aristasadyacentes": [
+      {
+        "inicio": "Carlos Pellegrini",
+        "fin": "Florida",
+        "peso": 1.53
+      },
+      {
+        "inicio": "Carlos Pellegrini",
+        "fin": "Uruguay",
+        "peso": 1.53
+      }
+    ],
+    "linea": {
+      "nombre": "Linea B",
+      "tiempo": 23
+    },
+    "transbordos": ["9 de Julio", "Diagonal Norte"]
+  },
+  {
+    "nombre": "Uruguay",
+    "longitud": -58.3867,
+    "latitud": -34.6066,
+    "aristasadyacentes": [
+      {
+        "inicio": "Uruguay",
+        "fin": "Carlos Pellegrini",
+        "peso": 1.53
+      },
+      {
+        "inicio": "Uruguay",
+        "fin": "Callao",
+        "peso": 1.53
+      }
+    ],
+    "linea": {
+      "nombre": "Linea B",
+      "tiempo": 23
+    },
+   "transbordos": []
+  },
+  {
+    "nombre": "Callao",
+    "longitud": -58.3911,
+    "latitud": -34.6086,
+    "aristasadyacentes": [
+      {
+        "inicio": "Callao",
+        "fin": "Uruguay",
+        "peso": 1.53
+      },
+      {
+        "inicio": "Callao",
+        "fin": "Pasteur",
+        "peso": 1.53
+      }
+    ],
+    "linea": {
+      "nombre": "Linea B",
+      "tiempo": 23
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Pasteur",
+    "longitud": -58.3954,
+    "latitud": -34.6106,
+    "aristasadyacentes": [
+      {
+        "inicio": "Pasteur",
+        "fin": "Callao",
+        "peso": 1.53
+      }
+    ],
+    "linea": {
+      "nombre": "Linea B",
+      "tiempo": 23
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Retiro",
+    "longitud": -58.3745,
+    "latitud": -34.5917,
+    "aristasadyacentes": [
+      {
+        "inicio": "Retiro",
+        "fin": "General San Martin",
+        "peso": 1.4
+      }
+    ],
+    "linea": {
+      "nombre": "Linea C",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "General San Martin",
+    "longitud": -58.3791,
+    "latitud": -34.5948,
+    "aristasadyacentes": [
+      {
+        "inicio": "General San Martin",
+        "fin": "Retiro",
+        "peso": 1.4
+      },
+      {
+        "inicio": "General San Martin",
+        "fin": "Lavalle",
+        "peso": 1.4
+      }
+    ],
+    "linea": {
+      "nombre": "Linea C",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Lavalle",
+    "longitud": -58.3817,
+    "latitud": -34.5991,
+    "aristasadyacentes": [
+      {
+        "inicio": "Lavalle",
+        "fin": "General San Martin",
+        "peso": 1.4
+      },
+      {
+        "inicio": "Lavalle",
+        "fin": "Diagonal Norte",
+        "peso": 1.4
+      }
+    ],
+    "linea": {
+      "nombre": "Linea C",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Diagonal Norte",
+    "longitud": -58.3813,
+    "latitud": -34.6035,
+    "aristasadyacentes": [
+      {
+        "inicio": "Diagonal Norte",
+        "fin": "Lavalle",
+        "peso": 1.4
+      },
+      {
+        "inicio": "Diagonal Norte",
+        "fin": "Moreno",
+        "peso": 1.4
+      }
+    ],
+    "linea": {
+      "nombre": "Linea C",
+      "tiempo": 13
+    },
+    "transbordos": ["9 de Julio", "Carlos Pellegrini"]
+  },
+  {
+    "nombre": "Avenida de Mayo",
+    "longitud": -58.3795,
+    "latitud": -34.6061,
+    "aristasadyacentes": [
+      {
+        "inicio": "Avenida de Mayo",
+        "fin": "Moreno",
+        "peso": 1.4
+      },
+      {
+        "inicio": "Avenida de Mayo",
+        "fin": "Independencia",
+        "peso": 1.4
+      }
+    ],
+    "linea": {
+      "nombre": "Linea C",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Moreno",
+    "longitud": -58.3786,
+    "latitud": -34.6093,
+    "aristasadyacentes": [
+      {
+        "inicio": "Moreno",
+        "fin": "Diagonal Norte",
+        "peso": 1.4
+      },
+      {
+        "inicio": "Moreno",
+        "fin": "Avenida de Mayo",
+        "peso": 1.4
+      }
+    ],
+    "linea": {
+      "nombre": "Linea C",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Independencia",
+    "longitud": -58.3791,
+    "latitud": -34.6132,
+    "aristasadyacentes": [
+      {
+        "inicio": "Independencia",
+        "fin": "Avenida de Mayo",
+        "peso": 1.4
+      },
+      {
+        "inicio": "Independencia",
+        "fin": "San Juan",
+        "peso": 1.4
+      }
+    ],
+    "linea": {
+      "nombre": "Linea C",
+      "tiempo": 13
+    },
+    "transbordos": ["Independencia"]
+  },
+  {
+    "nombre": "San Juan",
+    "longitud": -58.3793,
+    "latitud": -34.6163,
+    "aristasadyacentes": [
+      {
+        "inicio": "San Juan",
+        "fin": "Independencia",
+        "peso": 1.4
+      },
+      {
+        "inicio": "San Juan",
+        "fin": "Constitucion",
+        "peso": 1.4
+      }
+    ],
+    "linea": {
+      "nombre": "Linea C",
+      "tiempo": 13
+    },
+   "transbordos": []
+  },
+  {
+    "nombre": "Constitucion",
+    "longitud": -58.3734,
+    "latitud": -34.6257,
+    "aristasadyacentes": [
+      {
+        "inicio": "Constitucion",
+        "fin": "San Juan",
+        "peso": 1.4
+      }
+    ],
+    "linea": {
+      "nombre": "Linea C",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Facultad de medicina",
+    "longitud": -58.3957,
+    "latitud": -34.5961,
+    "aristasadyacentes": [
+      {
+        "inicio": "Facultad de medicina",
+        "fin": "Callao",
+        "peso": 1.625
+      }
+    ],
+    "linea": {
+      "nombre": "Linea D",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Callao",
+    "longitud": -58.3903,
+    "latitud": -34.5984,
+    "aristasadyacentes": [
+      {
+        "inicio": "Callao",
+        "fin": "Facultad de medicina",
+        "peso": 1.625
+      },
+      {
+        "inicio": "Callao",
+        "fin": "Tribunales",
+        "peso": 1.625
+      }
+    ],
+    "linea": {
+      "nombre": "Linea D",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Tribunales",
+    "longitud": -58.3861,
+    "latitud": -34.6010,
+    "aristasadyacentes": [
+      {
+        "inicio": "Tribunales",
+        "fin": "Callao",
+        "peso": 1.625
+      },
+      {
+        "inicio": "Tribunales",
+        "fin": " 9 de Julio",
+        "peso": 1.625
+      }
+    ],
+    "linea": {
+      "nombre": "Linea D",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": " 9 de Julio",
+    "longitud": -58.3822,
+    "latitud": -34.6037,
+    "aristasadyacentes": [
+      {
+        "inicio": " 9 de Julio",
+        "fin": "Tribunales",
+        "peso": 1.625
+      },
+      {
+        "inicio": " 9 de Julio",
+        "fin": "Catedral",
+        "peso": 1.625
+      }
+    ],
+    "linea": {
+      "nombre": "Linea D",
+      "tiempo": 13
+    },
+    "transbordos": ["Carlos Pellegrini", "Diagonal Norte"]
+  },
+  {
+    "nombre": "Catedral",
+    "longitud": -58.3731,
+    "latitud": -34.6093,
+    "aristasadyacentes": [
+      {
+        "inicio": "Catedral",
+        "fin": " 9 de Julio",
+        "peso": 1.625
+      }
+    ],
+    "linea": {
+      "nombre": "Linea D",
+      "tiempo": 13
+    },
+    "transbordos": ["Peru", "Bolivar"]
+  },
+  {
+    "nombre": "Pichincha",
+    "longitud": -58.3955,
+    "latitud": -34.6185,
+    "aristasadyacentes": [
+      {
+        "inicio": "Pichincha",
+        "fin": "Entre Rios",
+        "peso": 1.6
+      }
+    ],
+    "linea": {
+      "nombre": "Linea E",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Entre Rios",
+    "longitud": -58.3777,
+    "latitud": -34.6191,
+    "aristasadyacentes": [
+      {
+        "inicio": "Entre Rios",
+        "fin": "Pichincha",
+        "peso": 1.6
+      },
+      {
+        "inicio": "Entre Rios",
+        "fin": "San Jose",
+        "peso": 1.6
+      }
+    ],
+    "linea": {
+      "nombre": "Linea E",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "San Jose",
+    "longitud": -58.3758,
+    "latitud": -34.6167,
+    "aristasadyacentes": [
+      {
+        "inicio": "San Jose",
+        "fin": "Entre Rios",
+        "peso": 1.6
+      },
+      {
+        "inicio": "San Jose",
+        "fin": "Independencia",
+        "peso": 1.6
+      }
+    ],
+    "linea": {
+      "nombre": "Linea E",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Independencia",
+    "longitud": -58.3742,
+    "latitud": -34.6143,
+    "aristasadyacentes": [
+      {
+        "inicio": "Independencia",
+        "fin": "San Jose",
+        "peso": 1.0
+      },
+      {
+        "inicio": "Independencia",
+        "fin": "Belgrano",
+        "peso": 1.3
+      }
+    ],
+    "linea": {
+      "nombre": "Linea E",
+      "tiempo": 13
+    },
+    "transbordos": ["Independencia"]
+  },
+  {
+    "nombre": "Belgrano",
+    "longitud": -58.3735,
+    "latitud": -34.6110,
+    "aristasadyacentes": [
+      {
+        "inicio": "Belgrano",
+        "fin": "Independencia",
+        "peso": 1.3
+      },
+      {
+        "inicio": "Belgrano",
+        "fin": "Bolivar",
+        "peso": 1.0
+      }
+    ],
+    "linea": {
+      "nombre": "Linea E",
+      "tiempo": 13
+    },
+    "transbordos": []
+  },
+  {
+    "nombre": "Bolivar",
+    "longitud": -58.3734,
+    "latitud": -34.6083,
+    "aristasadyacentes": [
+      {
+        "inicio": "Bolivar",
+        "fin": "Belgrano",
+        "peso": 1.0
+      }
+    ],
+    "linea": {
+      "nombre": "Linea E",
+      "tiempo": 13
+    },
+    "transbordos": ["Peru", "Catedral"]
+  }
+]
+  
